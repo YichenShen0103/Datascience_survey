@@ -22,4 +22,5 @@ for path in paths:
     result.drop_duplicates(inplace=True)
 
     #保存合并后的文件
+    path=path[:-4]
     result.to_csv(path+'\\2004-2023law.csv', index=False)
