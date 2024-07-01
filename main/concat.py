@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 #设置读取的文件夹路径
-paths= ['c:\\Users\\14253\\Desktop\\数据科学\\data\\datasets\\law',
-        'c:\\Users\\14253\\Desktop\\数据科学\\data\\datasets\\law+']
+paths= ['C:\\Users\\14253\\Desktop\\数据科学\\datasets\\law',
+        'C:\\Users\\14253\\Desktop\\数据科学\\datasets\\law+']
 
 #读取所有文件夹里的csv文件并合并成一个文件
 for path in paths:
